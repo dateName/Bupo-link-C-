@@ -53,8 +53,13 @@ g++ -std=c++17 -O2 -march=native main.cpp -o ds_test.exe -pthread -lws2_32 -liph
 
 #### Linux / Termux
 
+**Linux**
 ```bash
 g++ -std=c++17 -O2 -march=native main.cpp -o ds_test -pthread
+```
+**Termux**
+```bash
+g++ -std=c++17 -O2 And_main.cpp -o ds_test-pthread
 ```
 
 ### 4. 运行
